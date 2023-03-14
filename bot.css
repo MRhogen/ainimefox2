@@ -1,0 +1,139 @@
+
+
+body{
+    background-color: rgb(22, 21, 21);
+    font-family: 'Readex Pro', sans-serif;
+}
+
+
+.carousel-item {
+   height: 30rem;
+   background-position: center;
+   
+  
+   
+   background-size: cover;
+   background-repeat: no-repeat
+   
+}
+.carousel-item:nth-of-type(1){
+
+    
+background-image: url(https://c4.wallpaperflare.com/wallpaper/695/331/660/digital-art-artwork-women-cityscape-wallpaper-preview.jpg)
+}
+
+.carousel-item:nth-of-type(2){
+    background-image:url(https://image.tmdb.org/t/p/original/fHWeA7t39QWbkOCHMxnUzdXN2FK.jpg) ;
+    
+}
+.carousel-item:nth-of-type(3){
+    background-image:url(https://ichef.bbci.co.uk/news/976/cpsprodpb/F382/production/_123883326_852a3a31-69d7-4849-81c7-8087bf630251.jpg) ;
+    
+}
+.carousel-item:nth-of-type(4){
+    background-image:url(https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1656473044.0987_Y3UVY8_n.jpg) ;
+    
+}
+h1 {
+    color: #e6e2e2;
+}
+h2 {
+    color: aliceblue;
+}
+#bobo{
+    width: fit-content;
+}
+.move-card{
+    width: fit-content;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+.card-img-top{
+    height: 209px;
+    
+}
+
+.move-card div{
+    display: inline-block;
+    font-size: xx-large;
+    color: bisque;
+    padding: 0px 10px;
+    margin: 0 5px;
+    background-color: black;
+}
+.move-card div:hover{
+cursor: pointer;
+}
+h3 {
+    font-size: large;
+    color: azure;
+}
+
+.fotter div{
+    width: fit-content;
+    padding: 10px 5px;
+    
+}
+.meadia a{
+    font-size: xx-large;
+    margin: 0 5px;
+    color: rgb(172, 13, 13);
+    transition: all 0.3s;
+}
+.meadia a:hover{
+    color: azure;
+}
+.foot{
+    background-color: rgb(7, 5, 5);
+    border-radius: 5px;
+   
+}
+.max-width{
+    display: flex;
+    overflow: hidden;
+   
+    padding: 0;
+   
+    
+}
+.max-width .col-lg-3 {
+    transform: translateX(0px);
+    transition: transform 0.4s;
+   
+    
+}
+.most-watch .card{
+   
+   
+}
+.navbar-nav li a{
+    
+    width: 130px;
+    text-align: center;
+    font-weight: bold;;
+}
+.navbar-nav li a:hover{
+    color: aliceblue;
+}
+.container-fluid img{
+    width: 150px;
+    height: 50px;
+    
+}
+.navbar-brand {
+    width: fit-content;
+    margin-right: 20%;
+}
+@media (width <= 575px) {
+    .max-width{
+        flex-direction: column;
+        height: 470px;
+    }
+
+}
+@media (width <= 543px) {
+    .max-width{
+        
+        height: 440px;
+    }
+}
